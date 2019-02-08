@@ -16,5 +16,5 @@ void revnumber()
  
    printf("Reverse of entered number is = %d\n", reverse);
  
-   return 0;
+//   return 0;
 }

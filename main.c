@@ -1,9 +1,9 @@
-#include <studio.h>
+#include <stdio.h>
 
 void main(){
    big();
-   palindrome();
    factorial();
-   revstring();
+   palindrome();
    revnumber();
+   //revstring();
 }
