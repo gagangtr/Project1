@@ -5,5 +5,7 @@ void main(){
    factorial();
    palindrome();
    revnumber();
+   pyramid();
+   engalpha();
    //revstring();
 }
