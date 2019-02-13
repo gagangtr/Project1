@@ -1,7 +1,6 @@
 #!/bin/sh
 pwd
-sudo cp -p /var/lib/jenkins/workspace/Build1/ABC.exe /home/ec2-user/jenkinsBackup/
-date=`date +'%d/%m/%Y_%H:%M:%S'`
-sudo chmod -R 777 /home/ec2-user/jenkinsBackup
-mv /home/ec2-user/jenkinsBackup/ABC.exe /home/ec2-user/jenkinsBackup/ABC_$date.exe
+date=`date +'%d/%m/%Y_%H:%M'`
+sudo cp -p /var/lib/jenkins/workspace/Build1/ABC.exe /var/lib/jenkins/workspace/Build1/ABC_$date.exe
+sudo cp -p /var/lib/jenkins/workspace/Build1/ABC_$date.exe /home/ec2-user/jenkinsBackup/
 sudo ls /home/ec2-user/jenkinsBackup/
